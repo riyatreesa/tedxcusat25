@@ -1,2 +1,2 @@
-# TEDx Military Tech React App
+# TEDx cusat25
 Run `npm install` and `npm start` to launch.
