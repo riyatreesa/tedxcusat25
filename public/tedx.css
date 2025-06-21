@@ -1,0 +1,152 @@
+.sticky-top {
+  background-color: black;
+  
+  font-weight: 800;
+  height: 60px;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  color: black;
+  overflow-x: hidden;
+}
+
+.h {
+  padding-top: 60px;
+  text-align: center;
+  color: red;
+}
+
+.p1 {
+  padding-left: 3%;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+
+.p2 {
+  font-weight: 600;
+  font-size: large;
+  text-align: center;
+  padding-top: 0%;
+}
+
+.infinite-scroll-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: red;
+  white-space: nowrap;
+  padding: 10px 0;
+  box-sizing: border-box;
+  z-index: 9999;
+}
+
+.infinite-scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  text-transform: uppercase;
+  animation: scroll 15s linear infinite;
+  font-weight: bold;
+}
+
+.infinite-scroll-text span {
+  display: inline-block;
+  color: white;
+  padding-right: 3rem;
+  font-size: 1.2rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ht {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+.testimonials {
+  max-width: 800px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.testimonial {
+  background: black;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial blockquote {
+  flex: 1;
+  margin: 0;
+
+}
+
+.testimonial cite {
+  display: block;
+  text-align: right;
+  margin-top: 0.5rem;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text {
+  color: white;
+
+}
+
+.ho {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.hd {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+
+}
+
+.pass {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  width: 185vh;
+}
